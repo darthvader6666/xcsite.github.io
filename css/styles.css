@@ -228,6 +228,16 @@ table {
   /* text-align: center; */
   
 }
+.people{
+  display: block;
+  white-space: normal;
+  margin: 3px 0 -1px;
+  padding-bottom: 1px;
+  width: 100%;
+  margin-top: -25px;
+  margin-left: 15px;
+  color: rgb(9, 12, 197);
+}
 
 #myDiv img
 {
