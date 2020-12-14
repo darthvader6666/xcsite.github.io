@@ -53,7 +53,7 @@
                   ">Tahmina Begum is a Bangladeshi teacher, 
                   book lover & a foodie & many more. She is the most amazing human being with the most amazing voice in this world.
                    She got her recognition for her diverse range of personality since birth,
-                    a brilliant student to began with, an original food lover, admirer of nature ... 
+                    A brilliant student to began with, an original food lover, admirer of nature ... 
                   </p>
                 </div>
                 <div>
@@ -100,11 +100,10 @@
                       </script>
                     <!-- Q1 -->
                     <div class="dropdown">
-                      <button onclick="myFunction2()" class="dropbtn">What is Tahmina's Favourite Food?</button>
+                      <button onclick="myFunction2()" class="dropbtn">What is Tahmina's Favourite Thing to do?</button>
                       <div id="myDropdown1" class="dropdown-content">
                         <p>
-                          Polao,  Tahmina has stated in several interviews that food from Pabna is worth dying for!
-                          And who are we to not believe her statements! 
+                          Looking at the blue sky and doing nothing!
                         </p>
                       </div>
                     </div>
@@ -134,8 +133,7 @@
                       <button onclick="myFunction3()" class="dropbtn">What is Tahmina's Favourite Color?</button>
                       <div id="myDropdown2" class="dropdown-content">
                         <p>
-                          Polao,  Tahmina has stated in several interviews that food from Pabna is worth dying for!
-                          And who are we to not believe her statements! 
+                          All shades of red!
                         </p>
                       </div>
                     </div>
@@ -159,7 +157,37 @@
                         }
                       }
                       </script>
-
+                    <!-- 04 -->
+                    <div class="dropdown">
+                      <button onclick="myFunction4()" class="dropbtn">What is Tahmina's Favourite Place?</button>
+                      <div id="myDropdown3" class="dropdown-content">
+                        <p>
+                          Pabna! Her palace.  
+                        </p>
+                      </div>
+                    </div>
+                    <hr>
+                    <script>
+                      function myFunction4() {
+                        document.getElementById("myDropdown3").classList.toggle("show");
+                        document.getElementById("myDropdown").style.opacity=1;
+                        document.getElementById("myDropdown1").style.opacity=1;
+                        document.getElementById("myDropdown2").style.opacity=1;
+                      }
+                      window.onclick = function(event) {
+                        if (!event.target.matches('.dropbtn')) {
+                          var dropdowns = document.getElementsByClassName("dropdown-content");
+                          var i;
+                          for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                              openDropdown.classList.remove('show');
+                            }
+                          }
+                        }
+                      }
+                      </script>
+                    <!-- 04 ends -->
 
                   </div>
                 </div>
@@ -262,7 +290,7 @@
           </div>
         </div>
         <div class="col-3">
-          <div class="card" style="width: 30rem; height: 67rem; margin-left: -110px; margin-top: 100px;">
+          <div class="card" style="width: 30rem; height: 66rem; margin-left: -110px; margin-top: 100px;">
             <div id="myDiv">
               <img 
               src="Tahmina.JPG"
@@ -282,9 +310,9 @@
               <div>
                 <p style="line-height: 1.58; font-size: 14px; text-align: left;
                 margin-left: 10px;">Tahmina Begum is a Bangladeshi teacher, 
-                book lover & a foodie & many more. She is the most amazing human being with the most amazing voice in this world.
-                 She got her recognition for her diverse range of personality since birth,
-                  a brilliant student to began with, an original food lover, admirer of nature ... 
+                book lover & A foodie & many more. She is the most amazing human being with the most amazing voice in this world.
+                 She got her recognition for her diverse range of personality since birth
+                  A brilliant student to began with, an original food lover, admirer of nature ... 
                   <span style="color: rgb(0, 3, 166)">Wikipedia</span> </p>
               </div>
               <div style="line-height: 1; font-size: 14px; text-align: left;
@@ -316,7 +344,7 @@
                 <div class="col-3">
                   <!-- maeesha -->
                   <div>
-                    <div style="margin-top: 100px; margin-left: -26px;">
+                    <div style="margin-top: 70px; margin-left: -26px;">
                       <img src="MAEESHA.jpg" 
                       alt="" style="height: 72; width: 72;">
                     </div> <p class="people">Maeesha</p> 
@@ -325,7 +353,7 @@
                 <div class="col-3">
                   <!-- Ashrafee -->
                   <div>
-                    <div style="margin-top: 100px; margin-left: -26px; ">
+                    <div style="margin-top: 70px; margin-left: -26px; ">
                       <img src="ASHRAFEE.jpg" 
                       alt="" style="height: 72; width: 72;">
                     </div> <p class="people">Ashrafee</p> 
@@ -334,7 +362,7 @@
                 <div class="col-3">
                   <!-- KONA -->
                   <div>
-                    <div style="margin-top: 100px; margin-left: -26px; ">
+                    <div style="margin-top: 70px; margin-left: -26px; ">
                       <img src="KONA.jpg" alt=""
                       alt="" style="height: 72; width: 72;">
                     </div> <p class="people">Kona</p> 
@@ -343,7 +371,7 @@
                 <div class="col-3">
                   <!-- SAHAT -->
                   <div>
-                    <div style="margin-top: 100px; margin-left: -26px; ">
+                    <div style="margin-top: 70px; margin-left: -26px; ">
                       <img src="SAHAT.jpg" alt=""
                       alt="" style="height: 72; width: 72;">
                     </div> <p class="people">Sahat</p> 
